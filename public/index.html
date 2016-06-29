@@ -5,25 +5,26 @@
           <title>Canvas Draw</title>
           <link rel="stylesheet" href="style.css" charset="utf-8">
           <script src="jquery.js"></script>
+          <script src="/socket.io/socket.io.js"></script>
 
      </head>
 
      <body>
-          <div id="draw">
+          <div class="draw">
                <div id="color">
                     <button type="button" data-color="red">Red</button>
                     <button type="button" data-color="yellow">Yellow</button>
                     <button type="button" data-color="blue">Blue</button>
-                    <button type="button" data-color="white">White</button>
+                    <button type="button" data-color="green">Green</button>
                     <button type="button" data-color="black">Black</button>
                </div>
                <div id="width">
-                    <button type="button" value="2px">2px</button>
-                    <button type="button" value="5px">5px</button>
-                    <button type="button" value="8px">8px</button>
-                    <button type="button" value="11px">11px</button>
-                    <button type="button" value="15px">15px</button>
-                    <button type="button" value="reset">Reset</button>
+                    <button type="button" data-width="2">2px</button>
+                    <button type="button" data-width="5">5px</button>
+                    <button type="button" data-width="8">8px</button>
+                    <button type="button" data-width="11">11px</button>
+                    <button type="button" data-width="15">15px</button>
+                    <button type="button" data-width="reset">Reset</button>
                </div>
           </div>
 

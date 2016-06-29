@@ -3,7 +3,14 @@
      margin-top: 2%;
 }
 
-#draw {
+#color   {
+     display: inline-block;
+}
+#width{
+     left: 20%;
+     display: inline-block;
+}
+/*.draw{
      display: inline-block;
      position: absolute;
-}
+}*/

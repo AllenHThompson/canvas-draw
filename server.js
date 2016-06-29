@@ -11,7 +11,11 @@ io.on('connection', function(clientSocket) {
 
      clientSocket.on('draw', function(twoPoints) {
           clientSocket.broadcast.emit('draw', twoPoints);
-          console.log('hey');
+          //console.log('hey');
+     });
+
+     clientSocket.on("reset", function(resetCanvas){
+          io.emit("reset", resetCanvas);
      });
 });
 

@@ -1,0 +1,9 @@
+#canvas {
+     border: 1px solid black;
+     margin-top: 2%;
+}
+
+#draw {
+     display: inline-block;
+     position: absolute;
+}

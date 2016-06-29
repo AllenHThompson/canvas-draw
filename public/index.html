@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <meta charset="utf-8">
+          <title>Canvas Draw</title>
+          <link rel="stylesheet" href="style.css" charset="utf-8">
+          <script src="jquery.js"></script>
+
+     </head>
+
+     <body>
+          <div id="draw">
+               <div id="color">
+                    <button type="button" data-color="red">Red</button>
+                    <button type="button" data-color="yellow">Yellow</button>
+                    <button type="button" data-color="blue">Blue</button>
+                    <button type="button" data-color="white">White</button>
+                    <button type="button" data-color="black">Black</button>
+               </div>
+               <div id="width">
+                    <button type="button" value="2px">2px</button>
+                    <button type="button" value="5px">5px</button>
+                    <button type="button" value="8px">8px</button>
+                    <button type="button" value="11px">11px</button>
+                    <button type="button" value="15px">15px</button>
+                    <button type="button" value="reset">Reset</button>
+               </div>
+          </div>
+
+
+          <canvas id="canvas" width="500" height="500"></canvas>
+
+          <script src="draw-together.js"></script>
+     </body>
+</html>
